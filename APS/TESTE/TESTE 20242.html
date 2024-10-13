@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .info, .info1, .info2 {
+            background-color: rgba(92, 29, 0, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #4d2800;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.25em;
+        }
+
+        p, li, a {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        a {
+            color: #4d2800;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #d9534f;
+        }
+
+        .banner1, .banner2 {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .banner1 img, .banner2 img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 10px;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+
+        .banner1 p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .banner {
+                height: 30vh;
+            }
+
+            .banner1, .banner2 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .banner1 img, .banner2 img {
+                max-width: 100%;
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+
+            h2, h3 {
+                font-size: 1.25em;
+            }
+
+            p, li {
+                font-size: 0.9em;
+            }
+
+            .info, .info1, .info2 {
+                padding: 15px;
+                width: 95%;
+            }
+
+            .banner1 p {
+                text-align: center;
+            }
+        }
+
+        /* Estilos adicionais */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #d9534f;
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>CERRADO</h1>
+    <div class="banner">
+        <img src="E:\APS DO FERNANDO\img\CERRADO.png" alt="Vista do Cerrado">
+    </div>
+
+    <div class="info">
+        <h3>Tópicos:</h3>
+        <ul>
+            <li><a href="#titulo01">Comidas típicas do cerrado</a></li>
+            <li><a href="#titulo02">Clima característico</a></li>
+            <li><a href="#titulo03">Vegetação típica</a></li>
+            <li><a href="#titulo04">Animais típicos</a></li>
+            <li><a href="#titulo05">Queimadas</a></li>
+        </ul>
+    </div>
+
+    <div class="info1">
+        <h2>O Cerrado é um dos seis biomas brasileiros e é considerado o segundo maior bioma da América do Sul e o mais biodiverso savana do mundo...</h2>
+    </div>
+
+    <h2 id="titulo01">Comidas típicas do cerrado</h2>
+    <div class="banner1">
+        <img src="../img/EMPADAO.jpg" alt="Empadão goiano">
+        <p>Por fora, parece uma empada, mas a verdade é que, por dentro, consegue ser ainda melhor...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/PEQUI.webp" alt="Pequi">
+        <p>Com um sabor forte e marcante, o fruto também é bastante usado em pratos internacionais...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/CUZCUZ.webp" alt="Cuscuz">
+        <p>Cuscuz é um prato berbere originário do Magrebe (região do noroeste do continente africano)...</p>
+    </div>
+
+    <h2 id="titulo02">Clima do Cerrado</h2>
+    <div class="info1">
+        <h2>O bioma Cerrado é constituído predominantemente pelo clima tropical sazonal...</h2>
+    </div>
+
+    <h2 id="titulo03">Vegetação Típica</h2>
+    <div class="info1">
+        <h2>O Cerrado é reconhecido como a savana com maior biodiversidade do mundo...</h2>
+    </div>
+
+    <h2 id="titulo04">Animais Típicos</h2>
+    <div class="info2">
+        <div class="banner1">
+            <img src="../img/LOBOGUARA.webp" alt="Lobo-Guará">
+            <p>O lobo-guará é um animal típico do Cerrado e muito semelhante, fisicamente, a um lobo...</p>
+        </div>
+        <div class="banner1">
+            <img src="../img/VEADO MANTEIRO.webp" alt="Veado-manteiro">
+            <p>O veado-mateiro é um mamífero que vive no Cerrado e na Mata Atlântica...</p>
+        </div>
+    </div>
+
+    <h2 id="titulo05">Queimadas que atingem a biodiversidade do Cerrado</h2>
+    <div class="banner2">
+        <img src="../img/FOCO DE CALOR.png" alt="Foco de queimadas">
+    </div>
+    <div class="info2">
+        <h2>As queimadas para a prática da atividade agropecuária ocorrem com frequência no Cerrado...</h2>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS</title>
+    <style type="text/css">
+        /* Global Styles */
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            color: black;
+            margin: 20px 0;
+        }
+
+        /* Banner */
+        .banner {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Info Section */
+        .info, .info1, .info2 {
+            background-color: rgba(92, 29, 0, 0.4);
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 20px;
+            max-width: 1200px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+        }
+
+        h3 {
+            font-size: 24px;
+            color: black;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: rgb(73, 39, 0);
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+            color: black;
+        }
+
+        /* Banner1 Image & Text Block */
+        .banner1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        .banner1 img {
+            width: 100%;
+            max-width: 450px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .info, .info1, .info2 {
+                width: 95%;
+                margin: 10px auto;
+            }
+
+            .banner1 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .banner1 img {
+                width: 100%;
+                margin: 0 0 20px 0;
+            }
+
+            .banner {
+                height: auto;
+            }
+        }
+
+        /* List styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(73, 39, 0);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CERRADO</h1>
+    <div class="banner">
+        <img src="../img/vista-da-floresta-de-arvores-quiver-com-cena-do-ceu-crepusculo-do-sol-lindo-ceu-em-keetmanshoop-namibia.jpg" alt="responsivo">
+    </div>
+
+    <div class="info">
+        <h3>Tópicos:</h3>
+        <ul>
+            <li><a href="#titulo01">Comidas típicas do cerrado</a></li>
+            <li><a href="#titulo02">Clima característico</a></li>
+            <li><a href="#titulo03">Vegetação típica</a></li>
+            <li><a href="#titulo04">Animais típicos</a></li>
+            <li><a href="#titulo05">Queimadas</a></li>
+        </ul>
+    </div>
+
+    <div class="info1">
+        <h2>O Cerrado é um dos seis biomas brasileiros e é considerado o segundo maior bioma da América do Sul
+            e o mais biodiverso savana do mundo. Ele se estende por uma vasta área central do Brasil...</h2>
+    </div>
+
+    <h2 id="titulo01">Comidas típicas do cerrado</h2>
+    <div class="banner1">
+        <img src="../img/EMPADAO.jpg" alt="Empadão">
+        <p>Por fora, parece uma empada, mas a verdade é que, por dentro, consegue ser ainda melhor...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/PEQUI.webp" alt="Pequi">
+        <p>Com um sabor forte e marcante, o fruto também é bastante usado em pratos internacionais...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/CUZCUZ.webp" alt="Cuscuz">
+        <p>Cuscuz é um prato berbere originário do Magrebe (região do noroeste do continente africano)...</p>
+    </div>
+
+    <h2 id="titulo02">Clima do Cerrado</h2>
+    <div class="info1">
+        <h2>O bioma Cerrado é constituído predominantemente pelo clima tropical sazonal...</h2>
+    </div>
+
+    <h2 id="titulo03">Vegetação típica</h2>
+    <div class="info1">
+        <h2>O Cerrado é reconhecido como a savana com maior biodiversidade do mundo...</h2>
+    </div>
+
+    <h2 id="titulo04">Animais Típicos</h2>
+    <div class="banner1">
+        <img src="../img/LOBOGUARA.webp" alt="Lobo-Guará">
+        <p>O lobo-guará é um animal típico do Cerrado e muito semelhante, fisicamente, a um lobo...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/VEADO MANTEIRO.webp" alt="Veado Manteiro">
+        <p>O veado-mateiro é um mamífero que vive no Cerrado e na Mata Atlântica...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/SERIEMA.webp" alt="Seriema">
+        <p>A seriema é uma ave típica do Cerrado, sendo conhecida por seu porte imponente...</p>
+    </div>
+
+    <div class="banner1">
+        <img src="../img/JAGUATIRICA.webp" alt="Jaguatirica">
+        <p>A jaguatirica é um felino também conhecido como gato-do-mato e encontrado na Mata Atlântica...</p>
+    </div>
+
+    <h2 id="titulo05">Queimadas no Cerrado</h2>
+    <div class="banner">
+        <img src="../img/FOCO DE CALOR.png" alt="Queimadas">
+    </div>
+    <div class="info2">
+        <h2>As queimadas para a prática da atividade agropecuária ocorrem com frequência no Cerrado...</h2>
+    </div>
+
+</body>
+
+</html>
